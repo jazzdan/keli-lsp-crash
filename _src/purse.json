@@ -1,0 +1,8 @@
+{
+    "node": "v8.10.0",
+    "dependencies": [],
+    "os": "linux",
+    "git": "git version 2.17.1",
+    "arch": "x86_64",
+    "compiler": "0.0.2-alpha"
+}
