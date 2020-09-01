@@ -1,0 +1,12 @@
+= module.import("../KeliLanguage.corelib.0.0.1-e/Boolean.keli")
+= module.import("../KeliLanguage.corelib.0.0.1-e/Math.keli")
+= module.import("../KeliLanguage.corelib.0.0.1-e/String.keli")
+= module.import("../KeliLanguage.corelib.0.0.1-e/List.keli")
+
+= "Hello world".replace("world") with("Keli!")
+
+= 123.+(456).*(789)
+
+= [1,2,3,4,5].toList.select(.*(2))
+
+= [1,2,3,4,5].toList.where(.>(3))
